@@ -3,21 +3,12 @@
     border: 3px black;
 }
 
-.logo-box {
+.logo-box{
     background-color: #E84C3D;
     height: 140px;
     width: 140px;
     border-radius: 20px;
     margin-top: -50px;
     position: absolute;
-
-}
-
-.logo-text {
-  margin-left: 300px;;
-
-}
-
-.site-nav {
 
 }
