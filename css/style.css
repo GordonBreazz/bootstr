@@ -1,3 +1,5 @@
+  
+
 .gray-bg {
     background-color: lightgray;
     border: 3px black;
@@ -5,7 +7,7 @@
 
 .logo-box{
     background-color: #E84C3D;
-    height: 140px;
+    height: 160px;
     width: 110px;
     border-radius: 20px;
     margin-top: -50px;
@@ -13,5 +15,7 @@
     background-image: url(../images/logo_white.png);
     background-position: 60% 93%;
     background-repeat: no-repeat;
+    background-size: 80px 80px;
+    float: right;
 
 }
