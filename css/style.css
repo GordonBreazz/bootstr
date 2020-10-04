@@ -3,11 +3,20 @@
 .gray-bg {
     background-color: lightgray;
     border: 3px black;
+    color: #443939;
+}
+
+.navbar-brand p {
+    font-size: 15px;
+    letter-spacing: 0.1em;
+    color: #443939;
+    text-shadow: 2px 0px 3px rgb(228 211 211);
+    font-weight: 600;
 }
 
 .logo-box{
     background-color: #E84C3D;
-    height: 160px;
+    height: 150px;
     width: 110px;
     border-radius: 20px;
     margin-top: -50px;
@@ -17,5 +26,20 @@
     background-repeat: no-repeat;
     background-size: 80px 80px;
     float: right;
+}
 
+.btn-panel {
+    width: 350px;
+
+}
+
+.btn-panel ul {
+    width: 30px;
+
+}
+
+.soc-icn a{
+    margin-left: 10px;        
+    margin-right: 10px;
+    
 }
