@@ -12,7 +12,7 @@ header, footer, content {
 }
 
 .navbar-brand p {
-    font-size: 15px;
+    font-size: 14px;
     letter-spacing: 0.1em;
     color: #443939;
     text-shadow: 2px 0px 3px rgb(228 211 211);
@@ -21,10 +21,11 @@ header, footer, content {
 
 .logo-box{
     background-color: #E84C3D;
-    height: 150px;
-    width: 110px;
-    border-radius: 20px;
+    height: 145px;
+    width: 100px;
+    border-radius: 15px;
     margin-top: -50px;
+    margin-left: 5px;
     /* position: absolute; */
     background-image: url(../images/logo_white.png);
     background-position: 60% 93%;
