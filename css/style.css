@@ -1,5 +1,10 @@
   
-
+body {
+    background-color: lightgray;
+}
+header, footer, content {
+    background-color: white;
+}
 .gray-bg {
     background-color: lightgray;
     border: 3px black;
@@ -7,7 +12,7 @@
 }
 
 .navbar-brand p {
-    font-size: 15px;
+    font-size: 14px;
     letter-spacing: 0.1em;
     color: #443939;
     text-shadow: 2px 0px 3px rgb(228 211 211);
@@ -16,10 +21,11 @@
 
 .logo-box{
     background-color: #E84C3D;
-    height: 150px;
-    width: 110px;
-    border-radius: 20px;
+    height: 145px;
+    width: 100px;
+    border-radius: 15px;
     margin-top: -50px;
+    margin-left: 5px;
     /* position: absolute; */
     background-image: url(../images/logo_white.png);
     background-position: 60% 93%;
@@ -42,4 +48,25 @@
     margin-left: 10px;        
     margin-right: 10px;
     
+}
+
+.has-search .form-control {
+    padding-left: 2.375rem;
+}
+
+.search_box {
+    margin-top:15px;
+}
+
+.has-search .form-control-feedback {
+  
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+    color: #aaa;
 }
