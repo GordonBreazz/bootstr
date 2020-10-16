@@ -105,3 +105,10 @@ header, footer, content {
     font-weight: 500;
     font-size: 10pt;
 }
+
+.card-img-top-books {
+    width: 100%;
+    height: 15vw;
+    object-fit: contain;
+    padding-top: 10px;
+}
