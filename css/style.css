@@ -112,3 +112,20 @@ header, footer, content {
     object-fit: contain;
     padding-top: 10px;
 }
+
+.aur {
+    font-size: 0.8rem;
+}
+
+.title-text-clamp p {
+    -webkit-line-clamp: 2;
+    /* line-clamp: 2; */
+    display: -webkit-box;
+    overflow: hidden;
+    -webkit-box-orient: vertical;
+}
+
+.aur-btn {
+    font-size: 0.6rem;
+    font-weight: bold;
+}
