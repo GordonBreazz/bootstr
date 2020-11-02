@@ -143,3 +143,18 @@ header, footer, content {
 .image_cnt {
     
 }
+
+ul.super-menu {
+    list-style-type: none;
+    margin-left: 10px;
+}
+
+.super-menu li a{
+    text-transform: uppercase;
+    color: #403838;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 2.5;
+    font-family: inherit;
+    font-style: inherit;
+}
