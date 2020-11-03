@@ -1,0 +1,46 @@
+/*
+ Theme Name:   GeneratePress Child
+ Theme URI:    https://generatepress.com
+ Description:  Default GeneratePress child theme
+ Author:       Tom Usborne
+ Author URI:   https://tomusborne.com
+ Template:     generatepress
+ Version:      0.1
+*/
+
+ul.side-super-menu {
+    list-style-type: none;
+    margin-left: 18px;
+    margin-right: 40px;
+    padding-top: 4px;
+}
+
+ .side-super-menu li:first-child {
+    padding-top: 0px;
+}
+
+
+
+.side-super-menu li {
+    padding-top: 15px;
+}
+
+.side-super-menu li a{
+    text-transform: uppercase;
+    /* color: #605555; */
+    color: #707070;
+    font-size: 15px;
+    font-weight: 700;
+    font-family: inherit;
+    font-style: inherit;
+}
+
+.side-super-menu li a:hover{
+    color: #393a3c;
+}
+
+/*
+.side-super-menu li:hover{
+margin-left: -15px;
+}
+*/
