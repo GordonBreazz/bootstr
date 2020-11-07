@@ -18,6 +18,7 @@ function print_menu_shortcode($atts, $content = null) {
 }
 
 function single_post_title_before( $post_id, $attributes ) {
+  echo "ok";
   if (get_post_type($post_id) =="events") {
    $event_category = get_field( 'event_category',$post_id );
     echo  "<p class=\"events-data-text\"><i class=\"fa fa-bookmark\" aria-hidden=\"true\"></i><span class=\"events-icon-padding\">$event_category</span></p>";
@@ -55,45 +56,13 @@ else  {
 echo '</div>';
 }
 
+
+
+
+
+
+
 }
-
-function single_post_cta_before( $post_id, $attributes ) {
-  if (get_post_type($post_id) =="newbooks") {
-    $cover_image = get_the_post_thumbnail_url( $post_id, 'full' );//get_field( 'cover_image', $post_id );
-    $newbook_title = mb_strimwidth(get_field( 'newbook_title', $post_id ), 0, 50, "...");
-    $newbook_author = get_field( 'newbook_author', $post_id );
-    $newbook_filial = get_field( 'newbook_filial', $post_id );
-
-
-    echo ' <a href="'.get_permalink($post_id ).'"><div class="book-card">
-    <div class="book-card__cover">
-      <div class="book-card__book">
-        <div class="book-card__book-front">
-          <img class="book-card__img" src="'.$cover_image.'" />
-        </div>
-        <div class="book-card__book-back"></div>
-        <div class="book-card__book-side"></div>
-      </div>
-    </div>
-    <div>
-
-      <div class="book-card__title">
-         <span>'.$newbook_title.'</span>
-      </div>
-
-      <div class="book-card__author">
-        '.$newbook_author.'
-      </div>
-
-       <div class="book-card__filial"><i class="fa fa-building" aria-hidden="true"></i><span class="book-card-icon-padding">
-        '.$newbook_filial.'
-</span>
-      </div>
-    </div>
-  </div></a>'; 
-}
-} 
-add_action( 'uagb_single_post_before_cta_grid', 'single_post_cta_before', 10, 2 );
 
 add_action( 'uagb_single_post_before_title_grid', 'single_post_title_before', 10, 2 );
 add_action( 'uagb_single_post_before_meta_grid', 'single_post_meta_before', 10, 2 );

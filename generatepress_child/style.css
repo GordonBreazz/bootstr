@@ -75,7 +75,7 @@ ul.side-super-menu {
   margin-right: -40px !important;
 margin-bottom: 40px;
 }
-
+/* Блок событий поступлений */
 .events-block .uagb-post__cta {
     visibility: hidden;
 }
@@ -114,6 +114,129 @@ margin-bottom: 40px;
 .events-block .events-data-text{
   color: gray;
   font-size: 14px;
+}
+
+
+/* Блок новых поступлений */
+.newbooks-block .uagb-post__cta {
+    visibility: hidden;
+}
+
+.newbooks-block {
+  margin-top: 20px !important;
+  margin-bottom: 40px !important;
+}
+
+.newbooks-block .uagb-post__items article .uagb-post__inner-wrap {
+  background-color: #fff;
+}
+
+.newbooks-block  .uagb-post__text {
+    padding: 0px !important;
+    text-align: left;
+}
+
+/* Сетка книг*/
+.book-card {
+  padding: 0px;
+  padding-top: 0px;
+  padding-bottom: 10px;
+  border-radius: 10px;
+  background-color: #fff;
+  /*box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);*/
+  border: solid #fff 1px;
+  text-align: center;
+  cursor: pointer;
+  margin-left: 10px;
+
+}
+
+
+.book-card:hover {
+
+ border: solid #f1f1f1 1px;
+
+}
+
+.book-card .book-card__cover {
+  position: relative;
+  width: 160px;
+  height: 224px;
+  margin: 0 auto 8px auto;
+  perspective: 1000px;
+}
+
+
+
+.book-card .book-card__book {
+  height: 100%;
+  transform-style: preserve-3d;
+  transition: all 250ms ease;
+}
+.book-card .book-card__book-front {
+  position: absolute;
+  height: 100%;
+}
+.book-card .book-card__book-back {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  transform: translateZ(-32px);
+}
+.book-card .book-card__book-side {
+  position: absolute;
+  top: 5px;
+  bottom: 2px;
+  right: -22px;
+  width: 30px;
+  background-size: 5px;
+  background-color: #e1e1e1;
+  background-image: linear-gradient(to right, #ccc 35%, #e1e1e1 35%);
+  opacity: 0;
+  transform: rotate3d(0, 1, 0, 90deg);
+}
+.book-card .book-card__img {
+  width: 100%;
+  height: 100%;
+  background-color: #e1e1e1;
+  box-shadow: 3px 5px 7px #33333345;
+
+}
+.book-card .book-card__title {  
+  font-size: 14px;
+  padding-top: 15px;
+  margin-bottom: 8px;
+  font-weight: 500; 
+  color: #585858;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+  min-height: 55px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.book-card .book-card__author {
+  color: #757575;
+  font-size: 0.8rem;
+}
+.book-card:hover .book-card__book {
+  transform: rotate3d(0, -1, 0, 30deg) translate(-15px, -30px);
+}
+.book-card:hover .book-card__book-back {
+  box-shadow: 5px 10px 15px rgba(0, 0, 0, 0.35);
+}
+.book-card:hover .book-card__book-side {
+  opacity: 1;
+}
+
+.book-card .book-card__filial {
+  color: #757575;
+  font-size: 0.8rem;
+  margin: 5px;
+
 }
 
 
