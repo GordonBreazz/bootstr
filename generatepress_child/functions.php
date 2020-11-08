@@ -65,7 +65,7 @@ function single_post_cta_before( $post_id, $attributes ) {
     $newbook_filial = get_field( 'newbook_filial', $post_id );
 
 
-    echo ' <a href="'.get_permalink($post_id ).'"><div class="book-card">
+    echo ' <div class="book-card-wrapper"><a href="'.get_permalink($post_id ).'"><div class="book-card">
     <div class="book-card__cover">
       <div class="book-card__book">
         <div class="book-card__book-front">
@@ -75,7 +75,7 @@ function single_post_cta_before( $post_id, $attributes ) {
         <div class="book-card__book-side"></div>
       </div>
     </div>
-    <div>
+    <div class="book-card__text-block">
 
       <div class="book-card__title">
          <span>'.$newbook_title.'</span>
@@ -90,10 +90,12 @@ function single_post_cta_before( $post_id, $attributes ) {
 </span>
       </div>
     </div>
-  </div></a>'; 
+  </div></a></div>'; 
 }
 } 
 add_action( 'uagb_single_post_before_cta_grid', 'single_post_cta_before', 10, 2 );
+
+add_action( 'uagb_single_post_before_cta_carousel', 'single_post_cta_before', 10, 2 );
 
 add_action( 'uagb_single_post_before_title_grid', 'single_post_title_before', 10, 2 );
 add_action( 'uagb_single_post_before_meta_grid', 'single_post_meta_before', 10, 2 );

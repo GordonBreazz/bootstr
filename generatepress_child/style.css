@@ -8,6 +8,209 @@
  Version:      0.1
 */
 
+/* Из секции дополнительные стили
+a.bvi-link-widget, a.bvi-link-shortcode {
+    color: #5f5b5b !important;
+    background-color: #fafafa !important;
+
+	  font-weight: 400;
+	  border-radius: 6px !important;
+}
+
+a.bvi-link-widget:hover {
+    color: white !important;
+    background-color: #e43b3a !important;
+
+	  font-weight: 400;
+}
+
+a.bvi-link-widget>svg {
+	margin-right: 5px;
+}  
+
+.top-bar .inside-top-bar {
+    justify-content: flex-end;
+}
+
+.top-bar .widget {
+	margin-left: 20px !important;
+}
+
+.site-logo {
+
+	  background-image: linear-gradient(90deg,#b6246e 0%,#f9636b 100%);
+    height: 175px;
+    width: 130px;
+    border-radius: 20px;
+    margin-top: -150px;
+	  padding-left: 16px;
+	  padding-top: 65px;
+    float: right;
+	  box-shadow: 2px 0px 3px rgb(228 211 211);
+    
+}
+
+.site-logo:hover {
+    background-image: linear-gradient(90deg,#03a7d3 0%,#154c92 100%);
+	    box-shadow: 0px 3px 50px 0px rgba(3,167,211,.2);
+
+	transition: all .15s ease-out;
+
+}
+
+.site-branding {
+	margin-top: -115px;
+	width: 290px;
+	margin-left: 8px
+}
+
+.site-description {    
+    letter-spacing: 0.1em;
+    color: #443939;
+    text-shadow: 2px 0px 3px rgb(228 211 211);
+    font-weight: 600;
+}
+
+.header-widget {
+	margin-top: -30px;
+	margin-right: 10px;
+
+}
+
+#search-3 {
+	
+}
+
+#search-3 input {
+ 	border-radius: 5px 0px 0px 5px; 
+	font-size: 10pt;
+	width: 255px;
+ 	border-width: 1px; 
+}
+
+#search-3 .search-form button.search-submit {
+	background-color: #607D8B;
+	font-size: 11pt;
+	border-radius: 0px 5px 5px 0px;
+	 	border-width: 0px; 
+}
+
+.lsi-social-icons li{
+	margin: 0px 0px 0px 0px !important;
+}
+
+.uk-margin-top-remove {
+    margin-top: 0!important;
+}
+
+.uk-h1 {
+  font-size: 30px;
+  line-height: 40px;
+}
+
+.uk-h2 {
+  font-size: 24px;
+  line-height: 30px;
+}
+
+.uk-h3 {
+  font-size: 18px;
+  line-height: 26px;
+
+}
+
+.uk-h4 {
+  font-size: 16px;
+  line-height: 22px;
+	color: #c8c8c8;
+	font-weight: 600;
+}
+
+.uk-h5 {
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.uk-h6 {
+  font-size: 12px;
+  line-height: 18px;
+}
+
+.uk-panel {
+	color: #595959;
+	width: 100%;
+	
+
+	
+}
+.uk-overlay{
+		width: 100%;
+}
+
+.uk-panel p {
+    margin: 0 0 0px 0;
+	    display: block;
+	font-size: 15px;
+	
+  color: rgba(199, 213, 227, 0.5);
+}
+
+.uk-margin {
+    margin-top: 30px;
+}
+
+.footer-widgets-container {
+	padding-left: 10px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.bk-white{
+	background-color: white; 
+}
+
+.site-content {
+
+    margin-top: 20px;	
+}
+
+.main-navigation, .site-footer > *, .site-main > * {    
+
+}
+
+.lsi-social-icons li a {
+   padding: 4px !important;
+}
+
+#search-3 .search-form button.search-submit {
+
+	  border-radius: 0px 50px 50px 0px;
+    background-image: linear-gradient(90deg,#b6246e 0%,#f9636b 100%);
+	
+
+}
+
+#search-3 input {
+    border-radius: 50px 0px 0px 50px;
+	border-color:#E8E8E1;
+	
+}
+
+#search-3 input:focus {
+    
+	border-color: #b6246e ;
+}
+
+.site-main {
+	margin-bottom: 0px !important;
+}
+ Начало */
 ul.side-super-menu {
     list-style-type: none;
     margin-left: 16px;
@@ -76,6 +279,9 @@ ul.side-super-menu {
 margin-bottom: 40px;
 }
 /* Блок событий поступлений */
+
+
+
 .events-block .uagb-post__cta {
     visibility: hidden;
 }
@@ -116,8 +322,22 @@ margin-bottom: 40px;
   font-size: 14px;
 }
 
+.events-block .uagb-post__inner-wrap:hover {
+   background-color: #3f51b52e !important;
+}
+
+.gb-container-8d715df4 {
+  margin-top: -30px !important;
+}
+
+
 
 /* Блок новых поступлений */
+
+.newbooks-block .book-card-wrapper{
+  padding-top: 32px;
+}
+
 .newbooks-block .uagb-post__cta {
     visibility: hidden;
 }
@@ -140,23 +360,40 @@ margin-bottom: 40px;
 .book-card {
   padding: 0px;
   padding-top: 0px;
-  padding-bottom: 10px;
+  padding-bottom: 20px;
   border-radius: 10px;
   background-color: #fff;
   /*box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);*/
-  border: solid #fff 1px;
+  border: solid #fff 2px;
   text-align: center;
   cursor: pointer;
   margin-left: 10px;
+
+
+ 
 
 }
 
 
 .book-card:hover {
 
- border: solid #f1f1f1 1px;
+ border: solid #f1f1f1 2px;
+
+
+
 
 }
+
+.book-card:hover .book-card__filial {  
+
+ color: #bf615c; 
+
+}
+
+.book-card .book-card__text-block {
+    color: #757575;
+}
+
 
 .book-card .book-card__cover {
   position: relative;
@@ -219,7 +456,6 @@ margin-bottom: 40px;
 }
 
 .book-card .book-card__author {
-  color: #757575;
   font-size: 0.8rem;
 }
 .book-card:hover .book-card__book {
@@ -233,12 +469,46 @@ margin-bottom: 40px;
 }
 
 .book-card .book-card__filial {
-  color: #757575;
   font-size: 0.8rem;
-  margin: 5px;
+  padding-top: 10px;
 
 }
 
+.book-card-icon-padding {
+   padding-left: 3px; 
+}
+/* Как стать нашим читателем*/
+.our-reader .gutentor-single-item-button:hover {
+  background-color: white;
+  color: white;
+  border-color: white !important;
+}
+
+.site-main {
+margin-top: 0px !important;
+}
+
+.button-cursor {
+  cursor: pointer;
+}
+
+.main-navigation .main-nav ul ul {
+    box-shadow: 1px 6px 8px rgba(0,0,0,.07);
+    min-width: 300px;
+    border-bottom: 1px;
+    border-left: 1px;
+    border-right: 1px;
+    border-color: #9e9e9e7d;
+    border-style: solid;
+}
+
+.main-navigation .main-nav ul ul li a {
+    border-top: solid 1px #f9f9f9;
+    font-weight: 500;
+}
+
+box-shadow: 1px 6px 8px rgba(0,0,0,.07);
+    min-width: 300px;
 
 /*
 .side-super-menu li:hover{
