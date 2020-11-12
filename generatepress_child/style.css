@@ -8,7 +8,7 @@
  Version:      0.1
 */
 
-/* Из секции дополнительные стили
+/* пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ
 a.bvi-link-widget, a.bvi-link-shortcode {
     color: #5f5b5b !important;
     background-color: #fafafa !important;
@@ -210,7 +210,7 @@ a.bvi-link-widget>svg {
 .site-main {
 	margin-bottom: 0px !important;
 }
- Начало */
+ пїЅпїЅпїЅпїЅпїЅпїЅ */
 ul.side-super-menu {
     list-style-type: none;
     margin-left: 16px;
@@ -278,7 +278,7 @@ ul.side-super-menu {
   margin-right: -40px !important;
 margin-bottom: 40px;
 }
-/* Блок событий поступлений */
+/* пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ */
 
 
 
@@ -332,7 +332,7 @@ margin-bottom: 40px;
 
 
 
-/* Блок новых поступлений */
+/* пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ */
 
 .newbooks-block .book-card-wrapper{
   padding-top: 32px;
@@ -356,7 +356,7 @@ margin-bottom: 40px;
     text-align: left;
 }
 
-/* Сетка книг*/
+/* пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ*/
 .book-card {
   padding: 0px;
   padding-top: 0px;
@@ -477,7 +477,7 @@ margin-bottom: 40px;
 .book-card-icon-padding {
    padding-left: 3px; 
 }
-/* Как стать нашим читателем*/
+/* пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ*/
 .our-reader .gutentor-single-item-button:hover {
   background-color: white;
   color: white;
@@ -540,20 +540,24 @@ header.page-header{
 }
 
 .contact-widgit:hover {
-
-    color: #6d6d6d;
+    color: #ffffff;
+    background-color: #fcb901;
+    border-color: white;
+    border-radius: 5px;
 }
 .contact-widgit {
-    margin-right: 15px;
+    margin-right: 30px;
     text-transform: uppercase;
     font-weight: 600;
-    font-size: 18px;
+    font-size: 14px;
     /* line-height: 2.5; */
     color: #5f5b5b;
-    padding: 8px 40px 8px 30px;
+    padding: 8px 27px 8px 23px;
     cursor: pointer;
-     background-color: #fafafa;
-    border-radius: 27px;
+    background-color: #fafafa;
+    border-radius: 3px;
+    border: solid 1px #e8e8e1;
+    margin-top: 1px;
 }
 
 .contact-widgit i {
